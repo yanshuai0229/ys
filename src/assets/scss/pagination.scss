@@ -1,0 +1,122 @@
+.pagination {
+  display: block;
+  border: none;
+  text-transform: uppercase;
+  margin: 0 0 50px;
+  padding: 0;
+}
+.page-item {
+  float: left;
+  text-decoration: none; /*border: 1px solid #dddddd;*/;
+  border-left-width: 0;
+  list-style: none;
+  background-color: #eee;
+  color: #000;
+  margin: 0 3px 0 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+  &:hover{
+    background-color: #3c4852;
+    &>a{
+      color: #fff;
+    }
+  }
+}
+.page-link-item {
+  color: #000;
+  text-decoration: none;
+  display:block;
+  padding: 2px 7px;
+}
+.prev-item {
+  float: left;
+  text-decoration: none; /*border: 1px solid #dddddd;*/;
+  border-left-width: 0;
+  list-style: none;
+  background-color: #eee;
+  color: #888;
+  margin: 0 3px 0 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  &:hover{
+    background-color: #3c4852;
+    &>a{
+      color: #fff;
+    }
+  }
+}
+.prev-link-item {
+  color: #000;
+  text-decoration: none;
+  display:block;
+  padding: 2px 7px;
+}
+.next-item {
+  float: left;
+  text-decoration: none; /*border: 1px solid #dddddd;*/;
+  border-left-width: 0;
+  list-style: none;
+  background-color: #eee;
+  color: #000;
+  margin: 0 3px 0 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  &:hover{
+    background-color: #3c4852;
+    &>a{
+      color: #fff;
+    }
+  }
+}
+.next-link-item {
+  color: #000;
+  text-decoration: none;
+  display:block;
+  padding: 2px 7px;
+}
+.break-view {
+}
+.break-view-item {
+}
+.active-class {
+  font-weight: 700;
+  background-color: #ff3633;
+  a{
+    color: #fff;
+  }
+}
+.disabled-class {
+  cursor:not-allowed;
+  a{
+    cursor:not-allowed;
+  }
+}
+
+.modalPagination{
+  min-width:500px;
+  position:relative;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.pagination-center {
+  display: block;
+  border: none;
+  text-transform: uppercase;
+  float:right;
+  margin-right: 24px;
+}
+
+.pagination_evaluate{
+  float:right;
+  display: block;
+  border: none;
+  text-transform: uppercase;
+  padding: 20px 0 0 !important;
+}
+
+
+

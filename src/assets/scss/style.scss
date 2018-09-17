@@ -1,0 +1,166 @@
+@import "./pagination";
+
+body {
+  font-family: "Microsoft YaHei";
+  font-size: 14px;
+  color: #403f3f;
+  line-height: 22px;
+  // background-color: #f5f5f5;
+}
+html{height: 100%;}
+
+.noData{width:300px;height:300px; margin: 50px auto; background: url(assets/images/core-img/noData.png) center center no-repeat;}
+.createItem{width:160px;height:160px;position: fixed; top:160px;right: 50px; cursor: pointer; background: url(assets/images/core-img/create-item.png) center center no-repeat; z-index:2;}
+.createTxt{position: absolute; font-size:20px;letter-spacing: 2px; font-weight: bold; top:85px; left:32px;}
+.logo-pt{position:relative;top:-3px;}
+.error_color {color:#e4393c}
+.list_img {width:100%; height:240px !important; cursor:pointer}
+/*-----login-----*/
+.signin-img{
+  width:160px;
+  height:160px;
+  border-radius: 50%;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form_signin_a {
+  color: #403f3f;
+}
+/*-----login-----*/
+
+.bg-1{background-image: url(assets/images/bg-img/bg-1.jpg);}
+.bg-5{background-image: url(assets/images/bg-img/bg-5.jpg);}
+
+.single_catagory_area_cover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+/*-----quill edit-----*/
+.ql-editor{
+  min-height:240px;
+  max-height:600px;
+}
+/*-----quill edit-----*/
+
+.upload_img1 {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 205px;
+  top: 30px;
+  border-radius: 5px;
+}
+.upload_img2 {
+  width: 205px;
+  height: 141px;
+  position: absolute;
+  top: 30px;
+  left: 240px;
+  border-radius: 5px;
+}
+
+/*----- list -----*/
+.blog-wrapper .single-blog-area .post-title-ys {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  background-color: rgba(0,0,0, 0.6);
+  color:#fff;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  padding: 8px 25px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  text-align:center;
+  z-index: 10; }
+.blog-wrapper .single-blog-area .post-title-ys>a.title {
+  font-size:16px;
+  line-height:16px;
+}
+.list-operation-area{
+  position:absolute;
+  top:0;
+  width:100%;
+  height:32px;
+  background: rgba(255,255,255, 0.8);
+}
+.blog-wrapper .single-blog-area span.view, .blog-wrapper .single-blog-area span.edit, .blog-wrapper .single-blog-area span.del{
+  display: inline-block;
+  width:24px;
+  height:24px;
+  position:absolute;
+  cursor:pointer;
+  top:2px;
+  border-radius: 50%;
+}
+.blog-wrapper .single-blog-area span.view { top:6px; right:74px; background: url(assets/images/core-img/view.png) center center no-repeat;}
+.blog-wrapper .single-blog-area span.edit { top:6px; right:45px; background: url(assets/images/core-img/edit.png) center center no-repeat;}
+.blog-wrapper .single-blog-area span.del { top:6px; right:16px; background: url(assets/images/core-img/del.png) center center no-repeat;}
+/*----- list -----*/
+
+/*----- datepicker -----*/
+.datepicker>input {
+  border: 1px solid #ebebeb !important;
+  height: 42px !important;
+}
+/*----- datepicker -----*/
+
+.list-group-item .list_add, .list-group-item .list_del, .list-group-item .list_edit {
+  position:absolute;
+  padding:3px 6px;
+  background: #333;
+  border-radius: 3px;
+  margin-left:6px;
+  color:#fff;
+  min-width:38px;
+  text-align: center;
+  cursor:pointer;
+}
+.list-group-item .list_add {
+  right:110px;
+}
+.list-group-item .list_edit {
+  right:60px;
+}
+.list-group-item .list_del {
+  right:10px;
+}
+.paddingR240{
+  padding-right:240px;
+}
+
