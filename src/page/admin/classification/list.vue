@@ -48,7 +48,8 @@
         filter: {
           pageNo: 1,
           pageSize: this.$global.paginationOptions.page_num,
-          delFlag: '0'
+          delFlag: '0',
+          parentId: '0'
         },
         list: [],
         pages: 0,
